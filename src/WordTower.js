@@ -300,8 +300,8 @@ const WordTower = () => {
     // Add labels to axes
     const axisLabels = [
       { text: 'X', color: '#ff0000', position: [5.5, 0, 0] },
-      { text: 'Y', color: '#00ff00', position: [0, 5.5, 0] },
-      { text: 'Z', color: '#0000ff', position: [0, 0, 5.5] }
+      { text: 'Z', color: '#00ff00', position: [0, 5.5, 0] },
+      { text: 'Y', color: '#0000ff', position: [0, 0, 5.5] }
     ];
 
     axisLabels.forEach(({ text, color, position }) => {
